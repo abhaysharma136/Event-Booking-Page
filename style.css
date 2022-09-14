@@ -1,0 +1,50 @@
+body{
+   display: grid;
+   min-height: 90vh;
+   place-content: center;
+   background-color: blue;
+}
+.heading{
+    text-align: center;
+}
+#imgDiv{
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/08/04/13/Swan-Lake.jpg?quality=75&width=1200&auto=webp");
+    margin:15px 10px;
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    border-radius: 20px;
+    border:1px solid white;
+}
+.table{
+    margin: auto;
+}
+@media (min-width:750px) {
+    .container{
+        display: flex;
+    }
+    .heading{
+        margin: 0px;
+        font-size: large;
+    }
+    form{
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 1.5rem;
+        margin-right: 25px;
+        color: white;
+    }
+    input{
+        width: 200px;
+        border-radius: 5px;
+        
+    }
+    .button{
+        width:70px
+    }
+    #imgDiv{
+        width:500px;
+        margin-left:25px;
+    }
+
+}
